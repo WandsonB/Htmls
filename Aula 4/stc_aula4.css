@@ -1,0 +1,20 @@
+/* div h2 p {
+    display: flex;
+} */
+
+body {
+    background-color: rgb(250, 196, 130);
+}
+
+h2 {
+    background-color: azure;
+    text-align: center;
+}
+
+/* h2 :hover {
+    color: aqua;    
+} */
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
