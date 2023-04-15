@@ -1,27 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <style>
-        
+        /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "poppins", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+
+        div button {
+            width: 150px;
+            height: 50px;
+            border-radius: 15px;
+            padding: 5px;
+            margin-top: 10px;
+            margin-left: 5px;
+            background-color: gold;
+        } */
+        form{
+            background-color: antiquewhite;
+        }
     </style>
 </head>
 <body>
     <form>
         <div>
             <label for="nome"> Nome: </label>
-            <input type="text">
+            <input type="text" id="nome" placeholder="Digite seu nome completo">
         </div>
         <div>
             <label for="email"> Email: </label>
-            <input type="email">
+            <input type="email" id="email" placeholder="exemplo@email.com">
         </div>
         <div>
-            <textarea name="" id="" cols="30" rows="25"></textarea>
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" cols="30" rows="25" placeholder="Deixe uma Mensagem"></textarea>
+        </div>
+        <div >
+            <button type="submit" class="abc">Enviar</button>
+            <button type="reset" class="abc">Rst</button>
         </div>
     </form>
+
+    <h1>aula 7</h1>
+    <br>
+    <h3>caixa de pesquisa</h3>
+    <form action="teste.txt" method="post">
+        <!-- o method serve para determinar qual a largura do arquivo que sera enviado e qual o nivel de segurança. Sempre recomendado usar POST -->
+        <!-- action e um atributo do formulario que ira direcionar os dados preenchidos no form. action="nome_do_arquivo_que_ira_receber_os_dados" -->
+        <div>
+            <label for="palavra-chave">Buscar:</label>
+            <input type="search" id="palavra-chave" name="palavra-chave">
+            <input type="submit" id="botao_enviar" value="Enviar">
+            <p>quem faz o pesquisar funcionar e quem mexe com back-end ou mexendo com javascript</p>
+        </div>
+    </form>
+
+    <h3>Numero</h3>
+    <form action="text.txt">
+        <div>
+            <label for="numero">type="number"</label>
+            <input type="number" id="numero" name="numero">
+        </div>
+        <div>
+            <label for="range">type="range"</label>
+            <input type="range" name="range" id="range">
+        </div>
+    </form>
+
+    <h3>email, telefone,url</h3>
+    <form action="test.txt" method="post">
+        <div>
+            <label for="email">email</label><br>
+            <input type="email" name="email" id="email_id">
+        </div>
+        <div>
+            <label for="telefone">telefone</label><br>
+            <input type="tel" name="telelefone" id="telelefone_id">
+        </div>
+        <div>
+            <label for="url">url</label><br>
+            <input type="url" name="url" id="url_id">
+        </div>
+    </form>
+
+    <h3>datas e horas</h3>
+        <form action="test.tx">
+            <form action="test.txt" method="post">  <br>
+                <input type="date" name="data" id="data">  <br>
+                <input type="datetime" name="data_e_hora" id="data_e_hora">  <br>
+                <input type="datetime-local" name="data_hora_local" id="data_hora_local">  <br>
+                <input type="month" name="mes" id="mes">  <br>
+                <input type="time" name="relogio" id="relogio">  <br>
+                <input type="week" name="semana" id="semana">  <br>
+            </form>
+        </form>
+
+    <h3>Senhas</h3>
+    <form action="test.txt" method="post">
+        <div>
+            <label for="senha">Digite sua senha</label>
+            <input type="password" name="senha" id="senha" placeholder="senha">
+        </div>
+    </form>
+    
+
+
 </body>
 </html>
