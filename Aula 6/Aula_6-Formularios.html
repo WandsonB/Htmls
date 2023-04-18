@@ -36,11 +36,11 @@
         </div>
         <div>
             <label for="email"> Email: </label>
-            <input type="email" id="email" placeholder="exemplo@email.com">
+            <input type="email" id="email" placeholder="exemplo@email.com" required>
         </div>
         <div>
             <label for="msg">Mensagem</label>
-            <textarea name="msg" id="msg" cols="30" rows="25" placeholder="Deixe uma Mensagem"></textarea>
+            <textarea name="msg" id="msg" cols="20" rows="5" placeholder="Deixe uma Mensagem"></textarea>
         </div>
         <div >
             <button type="submit" class="abc">Enviar</button>
@@ -70,7 +70,7 @@
         </div>
         <div>
             <label for="range">type="range"</label>
-            <input type="range" name="range" id="range">
+            <input type="range" name="range" id="range" min="1" max="99">
         </div>
     </form>
 
@@ -106,9 +106,24 @@
     <form action="test.txt" method="post">
         <div>
             <label for="senha">Digite sua senha</label>
-            <input type="password" name="senha" id="senha" placeholder="senha">
+            <input type="password" name="senha" id="senha" placeholder="senha" required>
         </div>
     </form>
+
+    <h3>Check Box</h3>
+    <form action="pag.html">
+        Java <input type="checkbox" name="java" id="java" value="java" name="linguagens">
+        php <input type="checkbox" name="php" id="php" value="php" name="linguagens">
+        kotlin <input type="checkbox" name="kotlin" id="kotlin" value="kotlin" name="linguagens">
+    </form>
+
+    <h3>Drop-Down</h3>
+    <select name="estados" id="estados">
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RS">Rio grande do Sul</option>
+        <option value="RN">Rio Grande do Norte</option>
+    </select>
     
 
 

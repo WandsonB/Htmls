@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inscrição</title>
+        <style>
+            div{
+                margin: 10px;
+            }
+
+            #ddd {
+                width: 25px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Formulario de inscrição</h1>
+        <h3>Preencha seu dados</h3>
+        <form action="Formulario.py">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco">
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <select id="Cidade" name="cidades">
+                    <option value="Paranoa">Paranoa</option>
+                    <option value="ss">São Sebastião</option>
+                    <option value="ceil">Ceilandia</option>
+                    <option value="tagua">Taguatinga</option>
+                </select>
+            </div>
+            <div>
+                <label for="ddd">Telefone: </label>
+                <input type="number" name="ddd" id="ddd" max="99">
+                <input type="number" name="tel" id="tel">
+            </div>
+            <div>
+                <label for="user">Úusario:</label>
+                <input type="text" name="user" id="user">
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" nome="pass" id="password">
+            </div>
+            <div>
+                <input type="submit" name="sub" id="submit" value="Finalizar sua inscrição">
+            </div>
+        </form>
+    </body>
+</html>
