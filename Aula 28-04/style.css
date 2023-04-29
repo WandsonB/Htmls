@@ -1,0 +1,44 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid;
+    border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px;
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid;
+    border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px;
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid;
+    border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px;
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+}

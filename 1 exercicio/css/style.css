@@ -12,7 +12,7 @@ main{
     width: 65%;
 }
 
-p,h1{
+h1{
     background-color: blueviolet;
 }
 
@@ -34,9 +34,18 @@ a {
     float: left;
 }
 
-#nav-head{
-    height: 80px;
-    width: 75%;
-    text-align: center;/*text-align serve para textos e links*/
+#nav-header{
+    background-color: darkviolet;
 
+    height: 40px;
+    width: 70%;
+    text-align: center;/*text-align serve para textos e links*/
+    float: right;
+    font-size: 25px;
+    margin-top: 40px;
+
+}
+
+main{
+    float: none;
 }
