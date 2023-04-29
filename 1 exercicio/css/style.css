@@ -12,7 +12,7 @@ aside{
 }
 
 main{
-    background-color: gray;
+    background-color: bisque;
 }
 
 p,h1{
@@ -42,8 +42,8 @@ header{
 
 #nav-header{
     width: 75%;
-    height: 50px;
-    padding-top: 25px;
+    height: 55px;
+    padding-top: 20px;
     text-align: center;/*text-align serve para textos e links*/
     font-size: 30px;
     padding-left: 25%;
@@ -51,7 +51,7 @@ header{
 
 #nav-header a{
     text-decoration: none;
-    padding: 2%;
+    padding: 10px;
     color: black;
 }
 
@@ -59,41 +59,43 @@ header{
 
 main {
     width: 69%;
+    height: 600px;
     padding: 1%;
-    background-color: bisque;
     float: left;
 }
 
-main article{
+main #main-div1{
     width: 70%;
     margin: 0;
+    float: left;
 }
 
-main article div section h2{
+main article section h2{
     text-align: center;
-    background-color: aqua;
+    background-color: burlywood;
 }
 
-main #main-aside1 {
-    width: 25%;
-    height: 170px;
-    margin: 20px;
+main div {
     float: right;
+    width: 29%;
+}
+
+main div #main-aside1 {
+    width: 100%;
+    height: 170px;
     margin-top: 10px;
 }
 
-main #main-aside2 {
-    width: 20%;
+main div #main-aside2 {
+    width: 100%;
     height: 170px;
-    margin: 20px;
-    float: right;
     margin-top: 10px;
 }
 
 body aside {
     float: right;
     width: 28%;
-    height: 600px;
+    height: 620px;
     text-align: center;
 }
 
@@ -123,6 +125,9 @@ footer{
 
 #nav_footer_1 a{
     margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
 
 #nav_footer_2{
@@ -139,10 +144,6 @@ footer{
 
 #nav_footer_2 a{
     display: inline-block;
-    text-decoration: none;
-    padding: 1%;
-    color: black;
-    float: left;
     margin-left: 5px;
 }
 
