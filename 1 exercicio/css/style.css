@@ -1,6 +1,7 @@
 *{
     text-transform: uppercase;
     margin: 0;
+    padding: 0;
 }
 
 aside{
@@ -9,7 +10,6 @@ aside{
 
 main{
     background-color: gray;
-    width: 65%;
 }
 
 p,h1{
@@ -19,24 +19,91 @@ p,h1{
 a {
     background-color: yellowgreen;
 }
-#div-head {
+
+/* PARTE DO HEADER */
+header{
     width: 100%;
     height: 20%;
 }
 
-#head-p{
+#head-h1{
     width: 25%;
-    height: 80px;
-    font-size:26px;
+    height: 50px;
+    padding-top: 25px;
+    font-size:25px;
     font-weight: 700;
     text-align: center;
     /* padding-top: 10px; */
     float: left;
 }
 
-#nav-head{
-    height: 80px;
+#nav-header{
     width: 75%;
+    height: 50px;
+    padding-top: 25px;
     text-align: center;/*text-align serve para textos e links*/
+    font-size: 30px;
+    padding-left: 25%;
+}
 
+#nav-header a{
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+}
+
+/* PARTE DO MAIN */
+
+main {
+    width: 100%;
+    padding: 1%;
+}
+
+main article section{
+    width: 55%;
+}
+
+main article section h2{
+    text-align: center;
+}
+
+aside {
+    width: 45%;
+    margin-top: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top,lightblue, grey);
+}
+
+#nav_footer_1{
+    margin-top: 25px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    background-color: brown;
+}
+
+#nav_footer_1 a{
+    margin-top: px;
+}
+
+#nav_footer_2{
+    width: 50%;
+    /* text-align: center; */
+    float: right;
+}
+
+#nav_footer_2 a{
+    display: inline-block;
+}
+
+main article section p{
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 40px;
 }
