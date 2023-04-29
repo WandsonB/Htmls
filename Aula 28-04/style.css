@@ -1,0 +1,110 @@
+*{margin: 0; padding: 0;}
+
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid;
+    border-width: 10px 5px; /*declaração dupla, "top,right", duplica para o resto, pode se ler cima e baixo , laterais.
+
+    /* border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px; */
+
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+    margin: 10px;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border: solid;
+    border-width: 5px 7px 15px 10px; /*declaração de todos os lados. Segue o sentido horario = segue a sequencia: top,right, bottom, left */
+
+    /* border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px; */
+
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+    margin: 10px;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border: solid;
+    border-width: 15px;/* declaração unica. serve para todos os lados*/
+
+    border-radius: 10px;
+
+    /* border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px; */
+
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+    margin: 10px;
+}
+
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: aliceblue;
+    border: solid;
+    border-width: 15px;/* declaração unica. serve para todos os lados*/
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    
+    /* border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px; */
+
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+    margin: 10px;
+}
+
+#div5{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    color: aliceblue;
+    border: solid;
+    border-width: 15px;/* declaração unica. serve para todos os lados*/
+
+    border-top-right-radius: 20px;
+    /* border-top-left-radius: 15px; */
+    /* border-bottom-right-radius: 15px; */
+    border-bottom-left-radius: 20px;
+
+    /* border-top: 10px;
+    border-right: 15px;
+    border-bottom: 10px;
+    border-left: 15px; */ /*usado para selecionar o estilo de um lado apenas*/
+
+    border-top-color: blueviolet;
+    border-right-color: rgb(0, 255, 106);
+    border-bottom-color: blueviolet;
+    border-left-color: rgb(0, 255, 106);
+    margin: 10px;
+}

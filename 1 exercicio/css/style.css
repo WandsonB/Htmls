@@ -2,6 +2,9 @@
     text-transform: uppercase;
     margin: 0;
     padding: 0;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 aside{
@@ -14,6 +17,7 @@ main{
 
 p,h1{
     background-color: blueviolet;
+    color: aliceblue;
 }
 
 a {
@@ -26,14 +30,13 @@ header{
     height: 20%;
 }
 
-#head-h1{
+#header-h1{
     width: 25%;
     height: 50px;
-    padding-top: 25px;
+    padding-top: 25px; /*os tamanhos de padding, border e margim se somam na autura total do elemento*/
     font-size:25px;
     font-weight: 700;
     text-align: center;
-    /* padding-top: 10px; */
     float: left;
 }
 
@@ -55,21 +58,47 @@ header{
 /* PARTE DO MAIN */
 
 main {
-    width: 100%;
+    width: 69%;
     padding: 1%;
+    background-color: bisque;
+    float: left;
 }
 
-main article section{
-    width: 55%;
+main article{
+    width: 70%;
+    margin: 0;
 }
 
-main article section h2{
+main article div section h2{
+    text-align: center;
+    background-color: aqua;
+}
+
+main #main-aside1 {
+    width: 25%;
+    height: 170px;
+    margin: 20px;
+    float: right;
+    margin-top: 10px;
+}
+
+main #main-aside2 {
+    width: 20%;
+    height: 170px;
+    margin: 20px;
+    float: right;
+    margin-top: 10px;
+}
+
+body aside {
+    float: right;
+    width: 28%;
+    height: 600px;
     text-align: center;
 }
 
-aside {
-    width: 45%;
-    margin-top: 20px;
+body aside #p-aside {
+    margin-top: 300px
 }
 
 
@@ -77,29 +106,44 @@ footer{
     width: 100%;
     height: 100px;
     background-image: linear-gradient(to top,lightblue, grey);
+    float: right;
 }
 
 #nav_footer_1{
     margin-top: 25px;
-    width: 50%;
-    height: 50px;
+    padding-top: 19px ;
+    width: 69%;
+    height: 40px;
     text-align: center;
-    float: left;
     background-color: brown;
+    font-size: 20px;
+    float: left;
+
 }
 
 #nav_footer_1 a{
-    margin-top: px;
+    margin-top: 20px;
 }
 
 #nav_footer_2{
-    width: 50%;
+    width: 30%;
     /* text-align: center; */
     float: right;
+    margin-top: 25px;
+}
+
+#nav_footer_2 p{
+    display: inline-block;
+    float: left;
 }
 
 #nav_footer_2 a{
     display: inline-block;
+    text-decoration: none;
+    padding: 1%;
+    color: black;
+    float: left;
+    margin-left: 5px;
 }
 
 main article section p{
