@@ -2,11 +2,13 @@
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    /* border: solid;
+    border: dotted black;
+    /* tipos de bordas: solid, dotted, dashed, double (coloca-se um dos estilos anteriores na frente */
     border-width: 1px;
-    border-color: black; */
     font-weight: 600;
 }
+
+/* Cores */
 
 aside{
     background-color: #4fa9cace;
@@ -34,6 +36,7 @@ h1{
 }
 
 /* PARTE DO HEADER */
+
 header{
     width: 100%;
     height: 40%;
@@ -41,85 +44,86 @@ header{
     border: none;
 }
 
-#header-h1{
-    width: 25%;
-    height: 50px;
-    padding-top: 25px; /*os tamanhos de padding, border e margim se somam na autura total do elemento*/
+header #logo{
+    width: 15%;
+    height: 75px;
+    /* padding-top: 25px; os tamanhos de padding, border e margim se somam na autura total do elemento*/
     font-size:25px;
     font-weight: 700;
     text-align: center;
     float: left;
 }
 
+header #logo img {
+    width: 70px;
+    height: 70px;
+}
+
 #nav-header{
-    width: 75%;
+    width: 85%;
     height: 55px;
     padding-top: 20px;
     text-align: center;/*text-align serve para textos e links*/
     font-size: 30px;
-    padding-left: 25%;
+    /* padding-left: 25%; */
 }
 
 #nav-header a{
     text-decoration: none;
     padding: 10px;
     color: black;
+    margin-left: 15px;
 }
 
 /* PARTE DO MAIN */
 
-main {
-    width: 69%;
-    height: 600px;
-    padding: 1%;
-    float: left;
-}
-
-main #main-div1{
+main{
+    /* background-color: chartreuse; */
     width: 70%;
-    margin: 0;
+    height: 600px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+}
+
+main article {
+    width: 70%;
     float: left;
 }
 
-main article section h2{
-    text-align: center;
-    background-color: burlywood;
-}
-
-main article section p{
-    margin-top: 10px;
-    text-align: justify;
-    text-indent: 40px;
-}
-
-main div {
-    float: right;
+main aside {
     width: 29%;
+    float: right;
 }
 
-main div #main-aside1 {
-    width: 100%;
-    height: 380px;
-    padding-top: 5px;
+main #main-aside1{
+    margin-top: 5px;
+    height: 300px;
 }
 
-main div #main-aside2 {
-    width: 100%;
-    height: 200px;
-    margin-top: 10px;
-    padding-top: 5px;
+main #main-aside2{
+    margin-top: 5px;
+    height: 287px;
+
 }
 
+main h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Parte aside fora do main */
 body #aside {
     float: right;
-    width: 28%;
-    height: 620px;
+    width: 27%;
+    height: 590px;
     text-align: center;
     margin-right: 10px;
+    margin-top: 15px;
 }
 
-body aside #p-aside {
-    margin-top: 10px
+body aside #h2-aside {
+    margin-top: 5px
 }
 
 /*Parte do rodapé*/
