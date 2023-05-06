@@ -10,30 +10,29 @@
 
 /* Cores */
 
-aside{
-    background-color: #4fa9cace;
+header div {
+    background-color: black;
 }
 
-body{
-    background-color: bisque;
+header nav {
+    background-color: lightblue;
 }
 
-p{
-    /* background-color: burlywood; */
-    color: black;
-    font-size: 18px;
-    margin: 5px;
+body {
+    background-image: linear-gradient(to top,lightblue, grey);
 }
 
-/* a {
+body #aside {
     background-color: darkgray;
-} */
+}
 
-/* h1{
-    background-color: burlywood;
-    color: black;
-    font-size: 18px;
-} */
+main {
+    background-color: goldenrod;
+}
+
+section, aside {
+    background-color: darkolivegreen;
+}
 
 /* PARTE DO HEADER */
 
@@ -61,16 +60,11 @@ header #logo img {
 
 #nav-header{
     width: 85%;
-    height: 100px;
+    height: 110px;
     float: right;
-
-    /* padding-top: 20px;
-    text-align: center;/*text-align serve para textos e links*/
-    /* font-size: 30px; */
-    /* padding-left: 25%; */
 }
 
-#nav-header #ul-header{
+#nav-header ul{
     width: 100%;
     float: left;
     list-style: none;
@@ -81,7 +75,10 @@ header #logo img {
 #ul-header li{
     display: inline;
     font-size: 30px;
-    margin:70px;
+    margin:30px;
+    /* border: solid black;
+    border-width: 1px;
+    padding-left: 50px; */
 }
 
 #nav-header a{
@@ -95,9 +92,9 @@ header #logo img {
 
 main{
     /* background-color: chartreuse; */
-    width: 70%;
+    width: 68%;
     height: 630px;
-    padding: 5px;
+    padding: 20px;
     float: left;
     margin: 30px 5px;
 }
@@ -105,6 +102,20 @@ main{
 main article {
     width: 70%;
     float: left;
+}
+
+main article section {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+main article section p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+main aside {
+
 }
 
 main div {
