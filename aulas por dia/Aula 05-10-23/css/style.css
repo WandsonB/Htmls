@@ -5,8 +5,7 @@ header{
     height: 120px;
     background-color: cadetblue;
     display: sticky;
-    top: 0;
-    
+    top: 0; 
 }
 
 a{
@@ -14,8 +13,8 @@ a{
     font-size: 22px;
     background-color: rgb(255, 235, 205);
     text-decoration: none;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 40px;
     left: 50px;
 }
 
@@ -24,16 +23,20 @@ a:hover {
     box-shadow: 2px 5px black;
 }
 
+/* .lista{
+    display:none;
+} */
+
 ul {
     width: 80px;
-    /* padding: 5px 10px; */
+    padding: 5px 10px; 
     background-color: burlywood;
     position: absolute;
     top: 87px;
     left: 44px;
     list-style: none;
     font-size: 20px;
-    /* display: none; */
+    display: none; 
     box-shadow: 2px 2px 2px;
 }
 

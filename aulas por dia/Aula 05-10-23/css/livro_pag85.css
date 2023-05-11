@@ -1,0 +1,42 @@
+.menudd{
+    position:relative;
+    display:inline-block;
+}
+
+.menubtn{
+    background-color: #800;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.menuConteudo{
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ 
+.menuConteudo a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.menuConteudo a:hover{
+    background-color: #FDD;
+    color: #800;
+}
+
+.menudd:hover .menuConteudo{
+    display: block;
+}
+
+.menudd:hover .menubtn{
+    background-color: #F00;
+}
