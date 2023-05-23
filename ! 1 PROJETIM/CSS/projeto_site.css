@@ -1,0 +1,53 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+header{
+    width: 98vw;
+    height: 10vh;
+
+    position: relative;
+    top: 0;
+
+    background-color: darkslategray;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+}
+
+#header_nav{
+    list-style: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu_lateral{
+    width: 20vw;
+    height: 90vh;
+
+    position: absolute;
+    top: 12vh;
+    left: 1vh;
+
+    background-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+#noticias_recentes{
+    width: 20vw;
+    height: 90vh;
+
+    position: absolute;
+    top: 12vh;
+    right: 1vh;
+    
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    /* overflow: ; */
+}
