@@ -1,4 +1,4 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+*{padding: 0; margin: 0; box-sizing: border-box; color: #fff;}
 
 header{
     width: 98vw;
@@ -12,14 +12,18 @@ header{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /*Geralmente serve para alinhas no eixo Y, com flex-direction:column passa a ser X*/
     align-items: center;
 
     margin: 5px;
 }
 
-#header_nav{
-    list-style: none;
+#header_nav a{
+    width: 100%;
+    /* justify-content: space-around; */
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
 }
 
 body{
