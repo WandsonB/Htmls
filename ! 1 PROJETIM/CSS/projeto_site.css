@@ -1,15 +1,57 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{padding: 0; margin: 0; box-sizing: border-box; color: #fff;}
 
-#menu{
-    width: 100vw;
+header{
+    width: 98vw;
     height: 10vh;
-
-    background-color: darkslategray;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     position: relative;
     top: 0;
+
+    background-color: darkslategray;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Geralmente serve para alinhas no eixo Y, com flex-direction:column passa a ser X*/
+    align-items: center;
+
+    margin: 5px;
+}
+
+#header_nav a{
+    width: 100%;
+    /* justify-content: space-around; */
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu_lateral{
+    width: 20vw;
+    height: 90vh;
+
+    position: absolute;
+    top: 12vh;
+    left: 1vh;
+
+    background-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+#noticias_recentes{
+    width: 20vw;
+    height: 90vh;
+
+    position: absolute;
+    top: 12vh;
+    right: 1vh;
+    
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    /* overflow: ; */
 }
