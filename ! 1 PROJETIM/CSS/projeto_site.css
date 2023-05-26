@@ -41,14 +41,17 @@ header{
 #principal{
     /* Proporção */
     width: 82vw;
-    height: 100px;
+    height: 100%;
     /* alinhamento de conteudo */
     display: flex;
     justify-content: space-around;
     /* alinhamento tela */
     position: relative;
     left: 18vh;
+    margin: 5px;
     /* estilo */
+    background-color: grey;
+    border-radius: 15px;
 }
 
 #principal main{
@@ -56,6 +59,7 @@ header{
     height: 1500px;
     background-color: aqua;
     float: left;
+    margin: 15px;
 }
 
 #principal aside{
@@ -63,4 +67,5 @@ header{
     height: 600px;
     background-color: darksalmon;
     float: right;
+    margin: 15px;
 }
