@@ -47,6 +47,7 @@ header a{
 
     position: sticky;
     top: 0;
+    z-index: 1;  /*define a profundidade do elemento*/
 
     display: flex;
     justify-content: space-evenly;
@@ -55,89 +56,96 @@ header a{
     background-color: cornflowerblue;
 }
 
-#nav a{
+#nav .nav_a{
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 50px;
     padding: 5px;
     font-size: 25px;
     font-weight: 700;
     color: black;
+    text-align: center;
 }
 
-#nav a:hover{
-    color: darkgreen;
+#nav .nav_a:hover{
+    color: cyan;
 }
 
-#nav_dropdown{
-    width: 100%;
-    height: 100px;
-
-    position: relative;
-    background-color: aquamarine;
+#nav .drop_a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
-#nav_dropdown ul {
+#nav .drop_a:hover{
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(0, 255, 247, 0.716);
+}
+
+.dropdown{
     /* Proporção */
     width: 15vh;
     box-sizing: border-box;
     /* alinhamento de conteudo */
-    
+    display: none;
+
     /* alinhamento tela */
+    z-index: 1;
     /* estilo */   
-    background-color: lawngreen; 
+    background-color: darkcyan; 
     list-style: none;
     font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: black 4px 7px 10px;
 }
 
-#ul_expos {
-    /* Proporção */
-    
-    /* alinhamento de conteudo */
-    
+#dropdown_expos {
     /* alinhamento tela */
     position: fixed;
-    left: 24%;
-
-    
-    /* estilo */
+    margin-left: 7px;
 }
 
-#ul_loja {
-    /* Proporção */
-    
-    /* alinhamento de conteudo */
-    
+#dropdown_loja {
     /* alinhamento tela */
     position: fixed;
-    left: 70%;
-
-    
-    /* estilo */
+    margin-left: -29px;
 }
 
-#ul_encontro {
-    /* Proporção */
-    
-    /* alinhamento de conteudo */
-    
+#dropdown_encontro {
     /* alinhamento tela */
     position: fixed;
-    left: 90%;
-    /* estilo */
+    margin-left: 13px;
+}
+
+#expos:hover #dropdown_expos{
+    display: block;
+}
+#loja:hover #dropdown_loja{
+    display: block;
+}
+#encon:hover #dropdown_encontro{
+    display: block;
 }
 
 #principal{
     /* Proporção */
-    width: 80vw;
+    width: 80%;
     height: 100%;
     /* alinhamento de conteudo */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     /* alinhamento tela */
     position: relative;
-    left: 20vh;
+    left: 10%;
     /* estilo */
     background-color: grey;
     border-radius: 15px;
@@ -146,24 +154,35 @@ header a{
 #principal main{
     /* Proporção */
     width: 65vw; 
+    height: 100%;
     /* alinhamento de conteudo */
     
     /* alinhamento tela */
+
     /* position: relative; */
     right: 0;
     margin: 15px;
     /* estilo */
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-color: aqua;
+    border-radius: 10px;
+    background-color: cadetblue;
 }
 
 #principal main section{
-    width: 100%;
+    /* Proporção */
+    width: 95%;
     height: 300px;
-
-    background-color: blueviolet;
+    
+    /* alinhamento de conteudo */
+    
+    /* alinhamento tela */
     margin-top: 15px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    /* estilo */
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: black 3px 5px 7px;
 }
 
 #principal aside{
