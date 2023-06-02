@@ -30,12 +30,13 @@ header{
     background-color: darkslategrey;
 }
 
-header img{
+header #logo img{
     margin-left: 1vw;
     border-radius: 5px;
+    height: 7vh;
 }
 
-header a{
+header #header_login_btn{
     font-size: 25px;
     margin-right: 1vw;
     background-color: cadetblue;
@@ -151,3 +152,138 @@ header a{
     border-radius: 15px;
 }
 
+#principal form{
+    margin-top: 5%;
+    width: 600px;
+    height: 100%;
+    background-color: darkslategrey;
+    box-shadow: 0px 3px 4px rgba(0,0,0, 0.5) inset 0px 4px 4px rgba(0,0,0, 0.35);
+    border-radius: 15px;
+    padding: 2%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal form .inputs-container {
+    margin-top: 15px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal form .inputs-container input {
+    width: 90%;
+    height: 15px;
+    padding: 25px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+
+    font-size: 16px;
+    column-rule-color: #312e42;
+
+    box-shadow: 0px 3px 3px rgba(0,0,0, 0.35);
+}
+
+#principal form .inputs-container input:focus{
+    box-shadow:inset 1px 4px 6px rgba(0,0,0, 0.5)
+}
+
+#principal form .senha-container {
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal form .senha-container i {
+    position: absolute;
+    right: 8%;
+    top: 35%;
+    color: #777;
+    cursor: pointer;
+}
+
+#principal form .senha-container #eye {
+    display: none;
+}
+
+#principal form .senha-infos {
+    width: 90%;
+    margin-top: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+#principal form .senha-infos a {
+    transition: 0.2 ease-in-out;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#principal form .senha-infos a:hover {
+    color: rgba(0, 255, 247, 0.716);
+}
+
+#principal form button {
+    background-color: cornflowerblue;
+    width: 90%;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 5%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+#principal form button:hover {
+    background-color: #e0e0e0;
+    color: cornflowerblue;
+}
+
+#principal form footer {
+    width: 100%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+#principal form footer hr {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+#principal form footer span {
+    font-weight: 400;
+    font-size: 0.9;
+    margin-top: 8%;
+}
+
+#principal form footer span a {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: 0.2s, ease-in-out;
+    text-decoration: none;
+}
+
+#principal form footer span a:hover {
+    color: rgba(0, 255, 247, 0.716);
+}

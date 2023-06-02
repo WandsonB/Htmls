@@ -30,12 +30,13 @@ header{
     background-color: darkslategrey;
 }
 
-header img{
+header #logo img{
     margin-left: 1vw;
     border-radius: 5px;
+    height: 7vh;
 }
 
-header a{
+header #header_login_btn{
     font-size: 25px;
     margin-right: 1vw;
     background-color: cadetblue;

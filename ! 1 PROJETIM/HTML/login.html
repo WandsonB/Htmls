@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>#Projetinho Car Care#</title>
-    <link rel="stylesheet" href="../CSS/em_construcao.css">
+    <link rel="stylesheet" href="../CSS/login.css">
     <link rel="shortcut icon" href="../img/motor_4528.ico">
+
 </head>
 <body>
     <!-- Site projeto CAR CARE -->
     <header id="menu">
-        <img src="../img/motor_4528.png" alt="Logo" height="85%">
+        <a href="./projeto_site.html" id="logo">
+            <img src="../img/motor_4528.png" alt="Logo" height="85%">
+        </a>
         
         <h1># Projetinho #</h1>
 
-        <a href="#">Login</a>
+        <a href="./login.html" id="header_login_btn">Login</a>
     </header>
     <nav id="nav">
-        <a href="#" class="nav_a">Principal</a>
+        <a href="./projeto_site.html" class="nav_a">Principal</a>
         <div id="loja">
             <a href="#" class="nav_a" >Loja</a>
             <div id="dropdown_loja" class="dropdown">
@@ -41,18 +44,29 @@
     <div id="principal">
         <article>
             <form>
-                <section class="input">
-                    <Label>Email</Label>
-                    <input id="input_email" type="email" placeholder="Digite o email de login" >
+                <section class="inputs-container">
+                    <input type="email" placeholder="Exemple@exeample.com">
+    
+                    <div class="senha-container">
+                        <input type="password" placeholder="*******">
+                    </div>
                 </section>
-                <section class="input">
-                    <Label>Senha</Label>
-                    <input id="input_senha" type="password" placeholder="Digite o senha de login" >
+    
+                <section class="senha-infos">
+                    <div>
+                        <input type="checkbox">
+                        <span>Lembrar senha</span>
+                    </div>
+    
+                    <a href="#">Esqueceu sua senha?</a>
                 </section>
-
-                <section id="cadastro">
-                    <p>Ainda não esta cadastrado? <span id="span_cadastro">Cadastre-se</span></p>
-                </section>
+    
+                <button id="btn-login">Login</button>
+    
+                <footer>
+                    <hr>
+                    <span>Ainda não tem uma conta? <a href="#" target="_blank">Cadastre-se</a></span>
+                </footer>
             </form>
         </article>
         
