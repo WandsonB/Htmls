@@ -1,13 +1,3 @@
-    /* Proporção */
-    
-    /* alinhamento de conteudo */
-    
-    /* alinhamento tela */
-    
-    /* estilo */
-    
-
-
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
 body{
@@ -141,7 +131,7 @@ header #header_login_btn{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
     /* alinhamento tela */
     position: relative;
@@ -153,3 +143,37 @@ header #header_login_btn{
 }
 
 
+.dias_da_semana{
+    padding: 10px;
+    text-align: center;
+    background-color: darksalmon;
+}
+.dias{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    background-color: cadetblue ;
+    
+}
+.dias_ante{
+    padding: 10px;
+    color: gray;
+    text-align: center;
+    background-color: dark;
+}
+.fds {
+    color:red;
+}
+
+
+td{
+    background-color: bisque;
+}
+
+section {
+    display: flex;  
+}
+
+section iframe{
+    margin: 10px;
+}
